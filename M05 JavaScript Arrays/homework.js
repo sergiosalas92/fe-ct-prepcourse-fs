@@ -72,23 +72,31 @@ function agregarNumeros(arrayOfNums) {
    // El parámetro "arrayOfNums" debe ser un arreglo de números.
    // Suma todos los elementos y retorna el resultado.
    // Tu código:
-   var contador = 0
-   for (var i = 0; i < array.lenght ; i++) {
-      contador = contador + arrayOfNums [i]
+   var contador = 0;
+   for (let i = 0; i < arrayOfNums.length; i++) {
+      contador = contador + arrayOfNums[i];
    }
-   return contador;
+   return contador
 }
 
 function promedioResultadosTest(resultadosTest) {
    // El parámetro "resultadosTest" es un arreglo de números.
    // Itera (en un bucle) los elementos del arreglo y devuelve el promedio de las notas.
    // Tu código:
+   return agregarNumeros(resultadosTest) / resultadosTest.length;
 }
 
 function numeroMasGrande(arrayOfNums) {
    // El parámetro "arrayOfNums" es un arreglo de números.
    // Retornar el número más grande.
    // Tu código:
+   var max = numeros [0];
+   for (var i = 0; i < arrayOfNums.length; i++) {
+      if (numeros [i] > max) {
+         max = numeros [i];
+      }
+   }
+   return max;
 }
 
 function multiplicarArgumentos() {
