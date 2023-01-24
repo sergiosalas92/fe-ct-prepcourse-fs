@@ -213,6 +213,21 @@ function breakStatement(num) {
    // la ejecución y retornar el string: "Se interrumpió la ejecución".
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
+   var array = [];
+   var suma = num;
+   for (var i = 0; i < 10; i++) {
+      suma = suma + 2;
+      if (suma === i) break
+      else {
+         array.push (suma);
+      }
+      
+   }
+   if (i < 10) {
+      return "Se interrumpió la ejecución"
+   } else {
+      return array;
+   }
 }
 
 function continueStatement(num) {
