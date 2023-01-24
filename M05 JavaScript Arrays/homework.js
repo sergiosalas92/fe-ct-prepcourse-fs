@@ -237,6 +237,16 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
+   var array = [];
+   var suma = num;
+   for (var i = 0; i < 10; i++) {
+      if (i === 5) continue;
+      else {
+         suma = suma + 2;
+         array.push (suma);
+      }
+   }
+   return array;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
