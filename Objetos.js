@@ -90,3 +90,12 @@ gato[property] = 'Napo' // es como cambia la propiedad de 'gatito' a 'Napo'
 objeto[metodo](); // para llamar una funcion [] buscan dentro de todo, una funcion
 objeto.metodo()   // en cambio aca busca solo la funcion llamada metodo
 var total = objetoMisterioso.numeroMisterioso * 5; // multiplicar
+
+// los PARAMETROS son los nombres que aparecen en la definición de una función. 
+//Por su parte, los ARGUMENTOS o PROPIEDAD son los valores que le pasamos (y que, por tanto, 
+//recibe) una función.
+// ---- parametros sin comillas  
+objeto[propiedad]
+// ---- propiedad entre 'propiedad'
+objetoUsuario['email']
+
