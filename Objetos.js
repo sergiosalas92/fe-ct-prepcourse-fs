@@ -87,3 +87,5 @@ property = 'nombre'
 gato[property] --- gatito 
 gato.nombre // es lo mismo pero con el metodo DOT NOTATION
 gato[property] = 'Napo' // es como cambia la propiedad de 'gatito' a 'Napo'
+objeto[metodo](); // para llamar una funcion [] buscan dentro de todo, una funcion
+objeto.metodo()   // en cambio aca busca solo la funcion llamada metodo
