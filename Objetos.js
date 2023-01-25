@@ -18,3 +18,8 @@ var autos = {};
 autos.marcas = ['Ford', 'Audi', 'Ferrari'];
 console.log(autos);
 
+//BORRAR
+delete autos.marcas;
+console.log(autos);
+
+
