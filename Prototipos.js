@@ -14,8 +14,7 @@ Array.prototype.mayorQueTres = function () {
     }
     return arregloModificado;
  };
- 
-  
+
  var arreglo = [1, 2, 3, 4, 5];
  var nuevoArreglo = arreglo.mayorQueTres();
  console.log(nuevoArreglo);
@@ -24,7 +23,9 @@ Array.prototype.mayorQueTres = function () {
          this.paises = [ ];
      };
  };
-  
+ 
+  //
+
  LatinoAmerica.prototype.agregarPais = function (pais) {
         this.paises.push(pais);
  };
